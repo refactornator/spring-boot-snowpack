@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "start": "snowpack build --watch --sourceMap",
+    "build": "snowpack build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "svelte": "^3.24.1"
+  },
+  "devDependencies": {
+    "@snowpack/app-scripts-svelte": "^1.8.3",
+    "@snowpack/plugin-run-script": "^2.0.4",
+    "@snowpack/plugin-webpack": "^2.0.2",
+    "@testing-library/jest-dom": "^5.11.3",
+    "@testing-library/svelte": "^3.0.0",
+    "@tsconfig/svelte": "^1.0.10",
+    "@types/jest": "^26.0.10",
+    "jest": "^26.4.0",
+    "snowpack": "^2.8.0-pre.4",
+    "svelte-check": "^1.0.16",
+    "svelte-preprocess": "^4.0.12",
+    "typescript": "^3.9.7"
+  }
+}
