@@ -1,10 +1,10 @@
 module.exports = {
-  extends: "@snowpack/app-scripts-svelte",
-  exclude: ["**/src/main/**/*", "**/src/test/**/*"],
   mount: {
     frontend: "/_dist_",
+    public: "/",
   },
   plugins: [
+    "@snowpack/plugin-svelte",
     [
       "@snowpack/plugin-run-script",
       {
