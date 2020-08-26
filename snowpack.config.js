@@ -21,15 +21,7 @@ module.exports = {
         output: [".html"],
       },
     ],
-    // [
-    //   "@snowpack/plugin-webpack",
-    //   {
-    //     extendConfig: (config) => {
-    //       console.log(config);
-    //       return config;
-    //     },
-    //   },
-    // ],
+    "@snowpack/plugin-webpack",
   ],
   installOptions: {
     installTypes: true,
