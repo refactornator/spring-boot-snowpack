@@ -13,14 +13,6 @@ module.exports = {
       },
     ],
     ["@snowpack/plugin-run-script", { cmd: "svelte-check" }],
-    [
-      "@snowpack/plugin-build-script",
-      {
-        cmd: "cp $FILE src/main/resources/templates/",
-        input: [".html"],
-        output: [".html"],
-      },
-    ],
     "@snowpack/plugin-webpack",
   ],
   installOptions: {
