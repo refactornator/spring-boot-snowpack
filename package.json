@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "snowpack build --watch --sourceMap",
+    "start": "snowpack build --watch",
     "build": "snowpack build",
     "test": "jest"
   },
